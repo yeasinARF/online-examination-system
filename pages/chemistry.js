@@ -65,7 +65,7 @@ export default function chemistry() {
                                         </div>
                                     </Col>
 
-                                    <Col xs={12} md={12} lg={6} xl={7} xxl={7}>
+                                    <Col xs={12} md={12} lg={6} xl={7} xxl={5}>
                                         <div className="content">
                                             <p className={styles.qTitle}>QUESTION</p>
                                             <hr style={{ marginRight: '-16px' }}></hr>
