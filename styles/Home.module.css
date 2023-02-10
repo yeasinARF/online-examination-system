@@ -1,91 +1,173 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+.navBar {
+  background-color: rgb(8, 117, 207);
+  color: white;
+}
+
+.linkText {
+  color: white;
+}
+
+.linkText:hover {
+  color: white;
+}
+
+.buttonAll {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 140px;
+  margin-right: 10px;
+  background-color: rgb(8, 117, 207);
+}
+
+.buttonAll:hover {
+  background-color: rgb(19, 19, 127);
+}
+
+.buttonClear {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  margin-right: 10px;
+  background-color: rgb(8, 117, 207);
+}
+
+.buttonClear:hover {
+  background-color: rgb(19, 19, 127);
+}
+
+.allSection {
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.questionContent {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.questionCard {
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 10px 4px rgb(224, 224, 224);
+  border: 2px solid rgb(214, 214, 214);
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0 0 1rem;
-  line-height: 1.15;
-  font-size: 3.6rem;
-}
-
-.title {
-  text-align: center;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.grid {
+.cardFirstProfile {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  max-width: 800px;
-  margin-top: 3rem;
+  margin-top: -85px;
+  justify-content: space-between;
 }
 
-.card {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+.questionCard .headerCard {
+  background-color: rgb(8, 117, 207);
+  display: flex;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  position: relative;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.qTitle {
+  font-size: 0.8rem;
+  color: blue;
+  font-weight: 500;
 }
 
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.vl {
+  border-left: 1px solid rgb(220, 220, 220);
+  position: absolute;
+  height: 90%;
+  left: 50%;
+  margin-left: -3px;
+  top: 37px;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.Palette {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:3px;
+
+}
+.legendView{
+  display:flex;
+  justify-content: space-around;
+  background-color:#97D2EC;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+.legendView2{
+  display:flex;
+  justify-content: space-around;
+  background-color:#97D2EC;
+  padding-bottom:2px;
+}
+.legendView3{
+  display:flex;
+  justify-content: space-around;
+  background-color:#97D2EC;
+  padding-bottom:2px;
+}
+.correct{
+  background-color:green;
+  width:147px;
+  margin-left:2px;
+  padding-left:2px;
+  text-align:left;
+}
+.wrong{
+  background-color:red;
+  width:147px;
+  margin-left:2px;
+  padding-left:2px;
+  margin-right:2px;
+  text-align:left;
+  
+}
+.rvAns{
+  background-color:rgb(165, 61, 255);
+  width:147px;
+  margin-left:2px;
+  padding-left:2px;
+  text-align:left;
+  
+}
+.rv{
+  background-color:yellow;
+  width:147px;
+  margin-left:2px;
+  padding-left:2px;
+  margin-right:2px;
+  text-align:left;
+  
+}
+.dump{
+  background-color:rgb(158, 158, 158);
+  width:147px;
+  margin-left:2px;
+  padding-left:2px;
+  text-align:left;
+  
+}
+.noVisit{
+  background-color:white;
+  width:147px;
+  margin-left:2px;
+  padding-left:2px;
+  margin-right:2px;
+  text-align:left;
+  
+}
+.qs{
+  background-color:rgb(8, 117, 207);
+  width:294px;
+  margin-left:2px;
+  margin-right:2px;
+  text-align:center;
+  margin-bottom:20px;
 }
 
-.logo {
-  height: 1em;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
