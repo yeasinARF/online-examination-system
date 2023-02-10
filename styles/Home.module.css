@@ -170,4 +170,28 @@
   text-align:center;
   margin-bottom:20px;
 }
+/* responsive  */
+@media  screen and (max-width:1240px) and (min-width:992px){
+    .qs{
+      width:235px;
+    }
+}
+@media  screen and (max-width:991px) {
+  .qs{
+    width:300px;
+    margin: auto;
+    margin-bottom:20px;
+  }
+  .cardFirstProfile{
+    margin-top:45px;
+  }
+  .line{
+    display:none;
+  }
+}
+@media  screen and (max-width:400px){
+  .qs{
+    width:150px;
+  }
+}
 

@@ -57,7 +57,7 @@ export default function Home() {
                   <Col xs={12} md={12} lg={6} xl={5} xxl={7}>
                     <div className="content">
                       <p className={styles.qTitle}>QUESTION INSTRUCTION</p>
-                      <hr style={{ width: '367px', marginLeft: '-16px' }}></hr>
+                      <hr className={styles.line}style={{ width: '367px', marginLeft: '-16px' }}></hr>
                       <Card.Text>
                         Passage You want to hit a small box on the floor with a
                         marble fired from a spring-loaded gun that is mounted
