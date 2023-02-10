@@ -171,6 +171,11 @@
   margin-bottom:20px;
 }
 /* responsive  */
+@media  screen and (min-width:1400px){
+  .qs{
+    width:100%;
+  }
+}
 @media  screen and (max-width:1240px) and (min-width:992px){
     .qs{
       width:235px;
